@@ -1,0 +1,11 @@
+import numpy as np
+uninitialized_array = np.empty((3, 3))
+ones_array = np.ones((3, 3))
+zeros_array = np.zeros((3, 3))
+print("SJC22MCA-2027 - Georgekutty Biju\nS3MCA")
+print("Uninitialized Array:")
+print(uninitialized_array)
+print("\nArray with all elements as 1:")
+print(ones_array)
+print("\nArray with all elements as 0:")
+print(zeros_array)
